@@ -1,0 +1,120 @@
+ html,body {
+ 	min-height:100%;
+ } 
+ .outcontainer{
+    position: relative;
+ }
+ .content{
+     width: 369px;
+     margin: auto;
+ }
+.background{
+	background-image: url(../images/1.png);
+	height: 100px;	 	
+	/*background-size:cover;    背景图全铺效果*/
+	background-repeat:no-repeat;
+	background-position:center 0;
+}
+.headImg{
+    text-align: center;
+}
+.lconIntroduction{
+    height: 184px;
+    margin-top: 65px;
+    width: 253px;
+}
+.input{ 
+    background: #ccb7be none repeat scroll 0 0;
+    border: 1px solid #ccb7be;
+    width: 367px;
+    float: left;
+}
+input{
+    background: #ceb9c0;
+    border: 1px solid #ceb9c0;
+}
+.input {
+	background: #ceb9c0;
+    border: 1px solid #ceb9c0;
+    color: #fff;
+    float: left;
+    font-size: 18px;
+    outline:none;
+    vertical-align:middle;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.input:not(:last-child) {
+    border-bottom:1px solid #ececec; 
+}
+.indexInput{
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 300px;
+}
+.verificationCode{
+    background: #f45152;
+    border: 1px solid #f45152;
+    color: #fff;
+    height: 33px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+.btnt {
+    background-color: #f45152;
+    border: 1px solid #f45152;
+    color: #fff;
+    display: inline-block;
+    font-size: 17px;
+    margin-top: 30px;
+    outline: medium none;
+    padding: 8px 160px;
+}
+.btntzc{
+    background: #ceb9c0 none repeat scroll 0 0;
+    border: 1px solid #ceb9c0;
+    color: #fff;
+    font-size: 15px;
+    height: 45px;
+    margin-left: 3px;
+    width: 80px;
+}
+.zc{
+	color: #fff;
+    font-size: 17px;
+    margin-top: 19px;
+    cursor: pointer;
+    float: right;
+}
+.forgetPas{
+	color: #CCC;
+    font-size: 17px;
+    margin-top: 10px;
+    /*cursor: pointer;*/
+    float: right;
+}
+.telephone{
+    width: 206px;
+}
+.icon{
+    margin-left: 9px;
+    width: 32px;
+}
+.register{
+    margin-top: 43px;
+}
+.but1{
+    border: 1px solid #f45152;
+   background-color: #f45152;
+   color: #fff;
+   font-size: 15px;
+   height: 33px;
+}
+.but2{
+   border: 1px solid  #def2fc;
+   background-color: #def2fc;
+   color: #444;
+   font-size: 15px;
+   height: 33px;
+   margin-left:-6px; 
+}

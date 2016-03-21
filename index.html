@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+    <link rel="stylesheet" type="text/css" href="style/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="style/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" type="text/css" href="style/index.css"/>
+    <!--公共样式-->
+    <link rel="stylesheet" type="text/css" href="style/thePeoplePublic.css"/>
+</head>
+<body class="background">
+    <div class="outcontainer">
+        <div class="content">
+                <div class='row'>
+                    <div class='col-md-12 headImg'>
+                        <img src="images/2.png" class='lconIntroduction'/>
+                    </div>
+                </div>
+            <form action=''>
+                <div class='row land'>
+                    <div class='col-md-12'>
+                        <div class='row'>
+                            <div class='col-md-12'>
+                                <div class='zc'>注册</div>
+                            </div>
+                        </div>
+                        <div class='row'>
+                            <div class='col-md-12 '>
+                                <div class="input">
+                                    <img class='icon' src="images/g1.png"/>
+                                    <input class="indexInput name" id='name' name="name" placeholder="请输入手机号" onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')"  maxlength="11">
+                                </div>                                
+                                <div class="input">
+                                    <img class='icon' src="images/g4.png"/>
+                                    <input class="indexInput password" type='password' id='password' name="password" placeholder="请输入密码" onkeyup="value=value.replace(/[^\a-\z\A-\Z0-9\u4E00-\u9FA5]/g,'')" onpaste="value=value.replace(/[^\a-\z\A-\Z0-9\u4E00-\u9FA5]/g,'')" oncontextmenu = "value=value.replace(/[^\a-\z\A-\Z0-9\u4E00-\u9FA5]/g,'')" maxlength="12">
+                                </div>
+                            </div>
+                        </div>
+                        <div class='row'>
+                            <div class='col-md-12'>
+                                <button class="btnt btntLand" type="submit">登&nbsp;&nbsp;陆</button>
+                            </div>
+                        </div>
+                        <div class='row'>
+                            <div class='col-md-12'>
+                                <div class='forgetPas'>忘记密码</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <form action=''>
+                <div class='register' style='display:none;'>
+                    <div class='row'>
+                        <div class='col-md-12'>
+                            <div class='input'>
+                                  <img class='icon' src="images/g1.png"/>
+                                  <input class="indexInput telephone" id='telephone' name="telephone" placeholder="请输入手机号" onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')"  maxlength="11">   
+                                  <input type="button" class='verificationCode' id="verificationCode" autocomplete="off" value="获取验证码"/>
+                            </div>
+                           <div class='input'>
+                                <img class='icon' src="images/g4.png"/>
+                                <input class="indexInput telephoneVerification" id='telephoneVerification' name="telephoneVerification" placeholder="请输入手机验证码" onkeyup="this.value=this.value.replace(/\D/g,'')"  onafterpaste="this.value=this.value.replace(/\D/g,'')" maxlength="4">
+                            </div>
+                           <div class='input'>
+                                <img class='icon' src="images/g3.png"/>
+                                <input class="indexInput setUp" type='password' id='setUp' name="setUp" placeholder="设置6~12位密码"  onkeyup="value=value.replace(/[^\a-\z\A-\Z0-9\u4E00-\u9FA5]/g,'')" onpaste="value=value.replace(/[^\a-\z\A-\Z0-9\u4E00-\u9FA5]/g,'')" oncontextmenu = "value=value.replace(/[^\a-\z\A-\Z0-9\u4E00-\u9FA5]/g,'')" maxlength="12">
+                            </div>
+                            <div class='input'>
+                                <img class='icon' src="images/g2.png"/>
+                                <input class="indexInput confirm" type='password' id='confirm' name="confirm" placeholder="确认密码" onkeyup="value=value.replace(/[^\a-\z\A-\Z0-9\u4E00-\u9FA5]/g,'')" onpaste="value=value.replace(/[^\a-\z\A-\Z0-9\u4E00-\u9FA5]/g,'')" oncontextmenu = "value=value.replace(/[^\a-\z\A-\Z0-9\u4E00-\u9FA5]/g,'')" maxlength="12">
+                            </div>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-md-12'>
+                            <button class="btnt btntRegister" type="submit">注&nbsp;&nbsp;册</button>
+                        </div>
+                    </div>                    
+                </div>
+            </form>
+         </div>      
+    </div>
+    <script type="text/javascript" src='script/jquery-2.1.1.js'></script>
+    <script type="text/javascript" src='script/index.js'></script>
+</body>
+</html>
